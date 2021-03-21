@@ -120,5 +120,6 @@ int my_parallelepiped(int x, int y, int z)
         vertical_bar(x, y, z);
         horizontal_line_low(x);
         my_putchar('\n');
+        return 0;
     }
 }
